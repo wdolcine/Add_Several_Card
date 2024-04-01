@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardbackground"
+        android:elevation="5dp"
+        android:padding="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/flashcard_question"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/pinK"
+        android:elevation="5dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/flashcard_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/flashcard_answer"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/pinK"
+        android:elevation="5dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/flashcard_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/flashcard_answer1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/pinK"
+        android:elevation="5dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_cross"
+        android:background="@color/white"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="330dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_edit"
+        android:background="@color/white"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/icon_moveto" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="720dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/icon_delete" />
+
+</RelativeLayout>

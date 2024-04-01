@@ -82,13 +82,19 @@ class MainActivity : AppCompatActivity() {
             if (allFlashcards.isNotEmpty()) {
                 // Afficher la carte précédente (si disponible)
                 currentCardDisplayedIndex = max(0, currentCardDisplayedIndex - 1)
-                val (question, answer) = allFlashcards[currentCardDisplayedIndex]
+                val (question, answer,wrongAnswer1,wrongAnswer2) = allFlashcards[currentCardDisplayedIndex]
                 flashcardQuestion.text = question
                 flashcardAnswer.text = answer
+                flashcardAnswer1.text = wrongAnswer1
+                flashcardAnswer2.text = wrongAnswer2
+
             } else {
                 // S'il n'y a plus de cartes, afficher un état vide
                 flashcardQuestion.text = ""
                 flashcardAnswer.text = ""
+                flashcardAnswer1.text = ""
+                flashcardAnswer2.text = ""
+
             }
         }
 

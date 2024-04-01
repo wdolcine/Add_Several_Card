@@ -5,7 +5,7 @@
 This app save the cards in a lite database and displays the cards in the mainActivity and allows the user to move into an other card and can delete it too.
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/wdolcine/Add_Several_Card/blob/master/add_several_cards.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
